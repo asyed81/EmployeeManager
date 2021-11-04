@@ -1,0 +1,19 @@
+<table class="table ">
+                <thead>
+                    <tr>
+                        <th>Login Date/Time</th>
+                        <th>Client Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        {{#each session.user.loginHistory}}
+                       <td>{{dateTime}}</td>
+                        <td>{{userAgent}}</td>
+                        {{/each}}
+                       
+                    </tr>
+                    
+                </tbody>
+            </table>

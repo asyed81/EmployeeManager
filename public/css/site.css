@@ -1,0 +1,22 @@
+.container{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.welcome{
+
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight:600;
+    font-style: italic; 
+}
+
+.navbar{
+    background-color: black;
+}
+
+.mainPageTitle{
+    text-align: center;
+    margin-top: 20%;
+
+}
+
